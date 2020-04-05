@@ -26,7 +26,7 @@ package com.video_trim.view;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.video_trim.R;
 
 import java.util.List;
