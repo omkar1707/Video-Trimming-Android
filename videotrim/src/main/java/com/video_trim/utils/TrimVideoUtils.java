@@ -75,7 +75,7 @@ public class TrimVideoUtils {
         // Here we try to find a track that has sync samples. Since we can only start decoding
         // at such a sample we SHOULD make sure that the start of the new fragment is exactly
         // such a frame
-        for (Track track : tracks) {
+        /*for (Track track : tracks) {
             if (track.getSyncSamples() != null && track.getSyncSamples().length > 0) {
                 if (timeCorrected) {
                     // This exception here could be a false positive in case we have multiple tracks
@@ -88,7 +88,8 @@ public class TrimVideoUtils {
                 endTime1 = correctTimeToSyncSample(track, endTime1, true);
                 timeCorrected = true;
             }
-        }
+        }*/
+
 
         for (Track track : tracks) {
             long currentSample = 0;
